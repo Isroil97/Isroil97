@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="172" viewBox="0 0 1200 172" role="img" aria-label="Thanks for visiting! Tashrif buyurganingiz uchun rahmat!">
+<title>Thanks for visiting!</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#16161e"/><stop offset=".55" stop-color="#1a1b26"/><stop offset="1" stop-color="#24283b"/>
+  </linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#7aa2f7" stop-opacity=".55"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#bb9af7" stop-opacity=".5"/><stop offset="1" stop-color="#bb9af7" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o3"><stop offset="0" stop-color="#7dcfff" stop-opacity=".25"/><stop offset="1" stop-color="#7dcfff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7aa2f7"/><stop offset=".5" stop-color="#bb9af7"/><stop offset="1" stop-color="#7dcfff"/>
+  </linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7aa2f7"/><stop offset=".5" stop-color="#bb9af7"/><stop offset="1" stop-color="#7aa2f7"/>
+  </linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#a9b1d6" opacity=".10"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="172" rx="22"/></clipPath>
+</defs>
+<style>
+  .o1 { animation: d1 9s ease-in-out infinite alternate; }
+  .o2 { animation: d2 11s ease-in-out infinite alternate; }
+  .w1 { animation: flow 13s linear infinite; }
+  .w2 { animation: flow 8s linear infinite reverse; }
+  .tw { animation: tw 3.2s ease-in-out infinite; }
+  .fl { animation: fl 6s ease-in-out infinite alternate; }
+  .in { animation: in 1.1s cubic-bezier(.2,.7,.3,1) backwards; }
+  @keyframes d1 { to { transform: translate(70px, 18px); } }
+  @keyframes d2 { to { transform: translate(-80px, 14px); } }
+  @keyframes flow { to { transform: translateX(-600px); } }
+  @keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .95; } }
+  @keyframes fl { to { transform: translateY(-10px); } }
+  @keyframes in { from { opacity: 0; transform: translateY(12px); } }
+</style>
+<g clip-path="url(#clip)">
+<rect width="1200" height="172" fill="url(#bg)"/>
+<rect width="1200" height="172" fill="url(#dots)"/>
+<circle class="o2" cx="140" cy="20" r="210" fill="url(#o2)"/>
+<circle class="o1" cx="1080" cy="40" r="220" fill="url(#o1)"/>
+<circle class="tw" style="animation-delay:0.59s" cx="1092" cy="57" r="1.4" fill="#7aa2f7"/>
+<circle class="tw" style="animation-delay:1.72s" cx="129" cy="42" r="1.1" fill="#c0caf5"/>
+<circle class="tw" style="animation-delay:0.61s" cx="985" cy="20" r="1.1" fill="#7dcfff"/>
+<circle class="tw" style="animation-delay:1.60s" cx="247" cy="36" r="1.8" fill="#c0caf5"/>
+<circle class="tw" style="animation-delay:2.26s" cx="1177" cy="106" r="1.1" fill="#bb9af7"/>
+<circle class="tw" style="animation-delay:1.28s" cx="55" cy="66" r="1.1" fill="#bb9af7"/>
+<circle class="tw" style="animation-delay:2.97s" cx="1003" cy="14" r="1.4" fill="#c0caf5"/>
+<circle class="tw" style="animation-delay:2.18s" cx="89" cy="88" r="1.4" fill="#7dcfff"/>
+<circle class="tw" style="animation-delay:0.67s" cx="952" cy="42" r="1.1" fill="#7aa2f7"/>
+<circle class="tw" style="animation-delay:0.13s" cx="1175" cy="70" r="1.1" fill="#7dcfff"/>
+<circle class="tw" style="animation-delay:2.66s" cx="267" cy="38" r="1.8" fill="#7aa2f7"/>
+<circle class="tw" style="animation-delay:0.05s" cx="105" cy="22" r="1.4" fill="#bb9af7"/>
+<circle class="tw" style="animation-delay:2.77s" cx="1133" cy="59" r="1.4" fill="#7dcfff"/>
+<circle class="tw" style="animation-delay:0.51s" cx="285" cy="71" r="1.4" fill="#7dcfff"/>
+<circle class="tw" style="animation-delay:0.76s" cx="75" cy="24" r="1.8" fill="#7aa2f7"/>
+<circle class="tw" style="animation-delay:0.40s" cx="224" cy="81" r="1.1" fill="#7aa2f7"/>
+<g class="w1"><path d="M0 136 Q150 110 300 136 T600 136 T900 136 T1200 136 T1500 136 T1800 136 V214 H0 Z" fill="url(#wave)" opacity=".16"/></g>
+<g class="w2"><path d="M0 154 Q150 134 300 154 T600 154 T900 154 T1200 154 T1500 154 T1800 154 V214 H0 Z" fill="url(#wave)" opacity=".32"/></g>
+<g class="in"><text x="600" y="70" text-anchor="middle" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="34" font-weight="800" fill="url(#txt)">Thanks for visiting!</text></g>
+<g class="in" style="animation-delay:.25s"><text x="600" y="104" text-anchor="middle" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="18" letter-spacing=".8" fill="#a9b1d6">Tashrif buyurganingiz uchun rahmat!</text></g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="170.5" rx="21.25" fill="none" stroke="url(#txt)" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>
